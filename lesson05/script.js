@@ -2,7 +2,7 @@ let balance = 5000;
 let Q = false;
 
 while (Q === false) {
-  let input = prompt('Welcome to Bank of Nacirema. Please make your selection.');
+  let input = prompt('Welcome to Bank of Nacirema. Please make your selection (use CAPS when entering your selection.)');
 
 switch (input) {
     case 'B':{
@@ -23,6 +23,7 @@ switch (input) {
     }
      case 'Q': {
       quit = true;
+      alert('Thank you for using our services.')
       break;
     }
   }
